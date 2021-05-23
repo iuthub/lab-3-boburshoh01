@@ -1,0 +1,58 @@
+body {
+    background-image: url('images/hashcode.png');
+    background-size: 100%;
+    margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container {
+    margin: 0 auto;
+	max-width: 50em;
+}
+
+.main {
+    border: 10px white solid;
+    background-color: white;
+}
+
+#global-header {
+    background-color: #A8F0F0;
+    /* border: 0px #A8F0F0 solid; */
+    text-align: right;
+}
+
+#global-details {
+    font-size: 10pt;
+    border: 0px;
+}
+
+/* #global-header #global-details {
+    border: 5px orange solid;
+    margin: 2px;
+} */
+
+.article {
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+.article-header .article-title {
+	font-size: 150%;
+    margin: 5px;
+}
+
+.created-at {
+    border-bottom: 2px rgb(81, 138, 133) dashed;
+}
+
+
+.article-body {
+    clear: right;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    float: right;
+}
